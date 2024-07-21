@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61c0ff;
+}
+.form-control1:disabled,
+.form-control1[readonly] {
+  background-color: #ffffff;
+  opacity: 1;
+  border: 1px solid white;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.calculator {
+  align-items: center;
+  border-radius: 10px;
+  height: auto;
+  /* Allow the height to adjust based on content */
+  width: 365px;
+  /* Increased width to give more space for buttons */
+  border: 2px solid black;
+  background: #000000;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 5px 0px 1px rgba(0, 0, 0, 0.762);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  /* Added padding to the calculator */
+}
+
+button {
+  margin-top: 5px;
+}
+
+.calc-btn {
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: 600;
+  background: white;
+  color: black;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: inset 3px -1px 1px 1px #000000b0;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.display {
+  padding: 10px 10px;
+  font-size: 30px;
+  width: 320px;
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: white;
+  /* Added margin-bottom for spacing */
+  color: rgb(0, 0, 0);
+}
+.operator {
+  background: #ffd34df2;
+  border: 1px solid black;
+  
+}
+.other-key{
+  background-color:#f98888d9
+}
+button:hover {
+  background-color: rgba(178, 176, 176, 0.834);
+}

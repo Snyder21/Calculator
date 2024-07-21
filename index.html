@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="calculator border p-4">
+      <input class="form-control1 display mb-3" type="text" readonly>
+      <div class="button d-grid gap-2">
+        <div class="btn-row row mb-2">
+          <div class="col-3"><button class="btn calc-btn  other-key" data-value="AC">AC</button></div>
+          <div class="col-3"><button class="btn calc-btn  other-key" data-value="CE">CE</button></div>
+          <div class="col-3"><button class="btn calc-btn  other-key" data-value="%">%</button></div>
+          <div class="col-3"><button class="btn operator calc-btn " data-value="/">/</button></div>
+        </div>
+        <div class="btn-row row mb-2">
+          <div class="col-3"><button class="btn calc-btn " data-value="7">7</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="8">8</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="9">9</button></div>
+          <div class="col-3"><button class="btn calc-btn operator " data-value="*">*</button></div>
+        </div>
+        <div class="btn-row row mb-2">
+          <div class="col-3"><button class="btn calc-btn " data-value="4">4</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="5">5</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="6">6</button></div>
+          <div class="col-3"><button class="btn calc-btn operator " data-value="-">-</button></div>
+        </div>
+        <div class="btn-row row mb-2">
+          <div class="col-3"><button class="btn calc-btn " data-value="1">1</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="2">2</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="3">3</button></div>
+          <div class="col-3"><button class="btn calc-btn operator " data-value="+">+</button></div>
+        </div>
+        <div class="btn-row row mb-2">
+          <div class="col-3"><button class="btn calc-btn " data-value="0">0</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="00">00</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value=".">.</button></div>
+          <div class="col-3"><button class="btn calc-btn operator " data-value="^">^</button></div>
+        </div>
+        <div class="btn-row row mb-2">
+          <div class="col-3"><button class="btn calc-btn " data-value="(">(</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value=")">)</button></div>
+          <div class="col-3"><button class="btn calc-btn " data-value="√">√</button></div>
+          <div class="col-3"><button class="btn calc-btn equal operator " data-value="=">=</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
